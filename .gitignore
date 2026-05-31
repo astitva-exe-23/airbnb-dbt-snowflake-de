@@ -8,3 +8,21 @@ wheels/
 
 # Virtual environments
 .venv
+
+# dbt local config
+aws_dbt_sf_proj/profiles.yml
+aws_dbt_sf_proj/.user.yml
+
+# dbt generated files
+aws_dbt_sf_proj/target/
+aws_dbt_sf_proj/logs/
+aws_dbt_sf_proj/dbt_packages/
+
+
+
+# vscode
+.vscode/
+
+# env files
+.env
+.env.*
