@@ -8,32 +8,7 @@ The pipeline follows the Medallion Architecture (Bronze → Silver → Gold) and
 
 ## Architecture
 
-```text
-Source Files
-     │
-     ▼
- AWS S3
-     │
-     ▼
-Snowflake Stage
-     │
-     ▼
-Bronze Layer
-(Raw Ingestion)
-     │
-     ▼
-Silver Layer
-(Cleansing + Incremental Loads + Upserts)
-     │
-     ▼
-Gold Layer
-(Fact & Dimension Models)
-     │
-     ▼
-Analytics Ready Data
-```
-
----
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/2760656c-39b2-42de-9c5b-2af21481a5a3" />
 
 ## Tech Stack
 
