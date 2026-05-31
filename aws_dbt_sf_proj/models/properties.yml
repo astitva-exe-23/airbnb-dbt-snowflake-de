@@ -1,0 +1,5 @@
+#properties being passed at the model level and hold higher priveleges compared to global level
+models:
+     - name: bronze
+       config:
+          materialized: table
